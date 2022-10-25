@@ -27,7 +27,7 @@ jobs:
       - run: checkout
       - run: npm audit
 
-workflow:
+workflows:
   default:
     jobs:
       - build
